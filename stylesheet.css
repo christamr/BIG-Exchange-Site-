@@ -205,8 +205,56 @@ header .logo {
 	padding-top: 15px;
 	height: 200px;
 }
+.gew {
+    font-family: 'lato', sans-serif; 
+    color: #fff;
+}
 
+.gew p {
+    padding: 0px;
+    margin: 0px;
+    font-size: .8em;
+    line-height: 50px;
+}
 
+.gew a:link {
+    color: #fafafa;
+    font-size: 1em;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.gew a:visited {
+    color: #fafafa;
+    font-size: 1em;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.gew a:hover {
+    color: #fafafa;
+    font-size: 1em;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+header .header-column1 {
+	width: 45%;
+	display: inline-block;
+	margin-right: 45px;
+}
+
+header .header-column2 {
+	width: 50%;
+	display: inline-block;
+	text-align: top;
+}
 
 header .btn {
 	background-color: #fafafa;
@@ -462,7 +510,36 @@ footer div.column2 {
 	width: 50%;
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 50px;
+	padding-top: 15px;
+}
+
+footer div.column2 div.row1a {
+	color: #fafafa;
+	font-size: .7em;
+    border-top: 1px solid #fff;
+    padding: 10px 0 10px 0;
+    vertical-align: middle;
+}
+
+footer div.column2 div.row1a {
+	line-height: 63px;
+}
+
+footer div.column2 div.row1a a:link {
+	color: #fafafa;
+}
+
+footer div.column2 div.row1a a:visited {
+	color: #fafafa;
+}
+
+footer div.column2 div.row1a a:hover {
+	color: #DC9B27;
+}
+
+footer div.column2 div.row1a img {
+	float: left;
+	padding-right: 15px;
 }
 
 footer div.column2 div.row1 {
@@ -1013,16 +1090,4 @@ div.km-signoff a:hover {
   	-moz-transition: background-color .5s;
   	-o-transition: background-color .5s;
   	transition: background-color .5s;
-}
-
-.gew {
-    font-family: 'lato', sans-serif; 
-    font-size: 1em;
-    color: #fff;
-}
-
-.gew p {
-    padding: 0px;
-    margin: 0px;
-    font-size: 1em;
 }
