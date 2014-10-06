@@ -35,6 +35,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
+	line-height: 1.35em;
 }
 
 .italic {
@@ -311,7 +312,7 @@ header h2 {
 	font-size: 2em;
 	margin-top: -150px;
 	margin-bottom: 80px;
-	line-height: 1.25em;
+	line-height: 1.35em;
 }
 
 .what aside {
@@ -521,6 +522,10 @@ footer div.column2 div.row1a {
     vertical-align: middle;
 }
 
+footer div.column2 div.row1a p {
+    line-height: 63px;
+}
+
 footer div.column2 div.row1a {
 	line-height: 63px;
 }
@@ -695,7 +700,7 @@ div.km-signoff a:hover {
 }
 
 .about-main-content p {
-	line-height: 1.5em;
+	line-height: 1.35em;
 	padding-bottom: 20px;
 }
 
@@ -773,8 +778,103 @@ div.km-signoff a:hover {
 	width: 24%;
 }
 
-.about-team {
+.about-event-flow {
 	background-color: #fafafa;
+	border-top: 25px solid #0095B7;
+	padding-top: 0px;
+	padding-bottom: 70px;
+}
+
+.about-event-flow h1 {
+	font-size: 2.2em;
+	color: #0095b7;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.about-event-flow .serif {
+	color: #616161;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.about-event-flow ul {
+	list-style-type: circle; 
+}
+
+.about-event-flow li {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.about-event-flow .center {
+	text-align: center;
+}
+
+.ticket-btns {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.gettickets.btn {
+	background-color: #0095B7;
+	text-decoration: none;
+	border: 2px solid #0095B7;
+	margin-right: 25px;
+}
+
+.gettickets.btn:link {
+	color: #fafafa;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.gettickets.btn:visited {
+	color: #fafafa;
+	text-decoration: none;
+}
+
+.gettickets.btn:hover {
+	color: #fafafa;
+	background-color: #006A8C;
+	border: 2px solid #006A8C;
+	-webkit-transition: background-color .5s;
+  	-moz-transition: background-color .5s;
+  	-o-transition: background-color .5s;
+  	transition: background-color .5s;
+}
+
+.seeschedule.btn {
+	text-decoration: none;
+}
+
+.seeschedule.btn:link {
+	border: 2px solid #0095B7;
+	color: #0095B7;
+	display: inline-block;
+}
+
+.seeschedule.btn:visited {
+	border: 2px solid #0095B7;
+	color: #0095B7;
+	display: inline-block;
+}
+
+.seeschedule.btn:hover {
+	border: 2px solid #006A8C;
+	background-color: #006A8C;
+	color: #fafafa;
+	-webkit-transition: background-color .5s;
+  	-moz-transition: background-color .5s;
+  	-o-transition: background-color .5s;
+  	transition: background-color .5s;
+}
+
+.about-team {
 	border-top: 25px solid #7A49A7;
 	padding-top: 0px;
 	padding-bottom: 70px;
@@ -888,7 +988,7 @@ div.km-signoff a:hover {
 
 .sponsorship-aside p {
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.35em;
 	padding-top: 15px;
 }
 
@@ -960,7 +1060,7 @@ div.km-signoff a:hover {
 	text-align: left;
 	font-family: "Bitter", serif;
 	font-size: 2em;
-	line-height: 1.25em;
+	line-height: 1.35em;
 }
 
 .submit-section1 h1 {
@@ -971,17 +1071,17 @@ div.km-signoff a:hover {
 }
 
 .submit-section1 p {
-	line-height: 1.5em;
+	line-height: 1.35em;
 	padding-bottom: 15px;
 }
 
 .submit-section2 p {
-	line-height: 1.5em;
+	line-height: 1.35em;
 	padding-bottom: 15px;
 }
 
 .submit-section3 p {
-	line-height: 1.5em;
+	line-height: 1.35em;
 	padding-bottom: 15px;
 }
 
@@ -1055,7 +1155,7 @@ div.km-signoff a:hover {
 
 .submit-aside p {
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.35em;
 	color: #616161;
 }
 
