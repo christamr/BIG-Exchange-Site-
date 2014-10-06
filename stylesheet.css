@@ -696,7 +696,23 @@ div.km-signoff a:hover {
 
 .about-main-content p {
 	line-height: 1.5em;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
+}
+
+.about-main-content .serif {
+	color: #616161;
+}
+
+.about-main-content a:link {
+	color: #616161;
+}
+
+.about-main-content a:visited {
+	color: #616161;
+}
+
+.about-main-content a:hover {
+	color: #A7C542;
 }
 
 .margin-fix {
@@ -770,6 +786,10 @@ div.km-signoff a:hover {
 	padding-bottom: 15px;
 	padding-top: 30px;
 	margin-top: -100px;
+	text-align: center;
+}
+
+.team {
 	text-align: center;
 }
 
