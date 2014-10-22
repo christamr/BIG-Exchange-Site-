@@ -1511,12 +1511,32 @@ div.km-signoff a:hover {
   	transition: background-color .5s;
 }
 
+.responsive-video {
+	position: relative;
+	padding-bottom: 28%;
+	padding-top: 30px;
+	height: 0;
+	overflow:
+	hidden; 
+}
+.responsive-video iframe {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 100%; 
+	height: 100%;
+}
+
 /* RESPONSIVE ELEMENTS */
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
 	
 	.width {
 		width: 70%;
+	}
+
+	.col1 img {
+		width: 100%;
 	}
 
 	/*HOME PAGE RESPONSIVE*/
@@ -1537,5 +1557,317 @@ div.km-signoff a:hover {
 
 	header .header-column2 p {
 		padding-top: 100px;
+	}
+
+	.what-who li {
+		width: 18%;
+	}
+
+	.top-tier-list img {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+
+	header div.header-column1 {
+		display: block;
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	header div.header-column1 p {
+		padding-top: 30px;
+	}
+
+	header div.header-column2 {
+		width: 70%;
+		padding-top: 100px;
+	}
+
+	header div.logo {
+		height: 150px;
+	}
+
+	div.gew {
+		display: none;
+	}
+
+	img.ribbon  {
+		display: none;
+	}
+
+	.what-opening {
+		width: 100%;
+		margin: 40px 0 40px 0;
+		text-align: center;
+	}
+
+	div.how-itworks {
+		margin-top: 40px;
+	}
+
+	.leading-sponsors img {
+		width: 25%;
+	}
+
+	.col2-row1 p {
+		font-size: 1.2em;
+	}
+
+	.about-main-content img {
+		display: none;
+	}
+
+	h1.margin-fix {
+		padding-top: 250px;
+	}
+
+	.sponsors h1 {
+		margin-top: 40px;
+	}
+
+	.registration .width {
+		padding-top: 200px;
+		padding-bottom: 50px;
+	}
+
+	.submit-section1 .width {
+		padding-top: 200px;
+	}
+
+	.submit-section1 .width p {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 780px) {
+
+	nav {
+		position: relative;
+	}
+	
+	nav ul li {
+		margin-right: 5%;
+		text-transform: uppercase;
+	}
+
+	nav .btn.problem {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav .btn.problem:visited {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav .btn.problem:hover {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav .btn.register {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav .btn.register:visited {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav .btn.register:hover {
+		display: block;
+		float: none;
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.navigation {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+
+	.navigation ul {
+		display: block;
+		text-align: center;
+	}
+
+	header {
+		margin-top: 0px;
+	}
+
+	header div.logo {
+		display: none;
+	}
+
+	.header-column2.responsive-video {
+		width: 100%;
+		padding-top: 150px;
+	}
+
+	aside {
+		text-align: center;
+	}
+
+	.what-who li {
+		width: 35%;
+	}
+
+	.how-itworks li {
+		width: 40%;
+	}
+
+	li.arrow-list {
+		display: none;
+	}
+
+	.how-event li {
+		width: 40%;
+	}
+
+	footer .leading-sponsors {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+
+	.leading-sponsors img {
+		width: 45%;
+	}
+
+	.main-footer {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.main-footer .col1 {
+		width: 50%;
+		margin-right: 0px;
+	}
+
+	.main-footer .col2-row1 img {
+		float: none;
+		line-height: 0px;
+		margin-top: -10px;
+	}
+
+	.col2-row1 p {
+		font-size: 1.5em;
+		line-height: 1.2em;
+		margin-top: -10px;
+	}
+
+	.main-footer .col2-row1 a:link {
+		line-height: 1.2em;
+	}
+
+	.col2 {
+		margin-top: 20px;
+	}
+
+	.main-footer .col2a {
+		width: 100%;
+	}
+
+	.main-footer .col2b {
+		width: 100%;
+		border-left: none;
+		padding-left: 0px;
+	}
+
+	.about-main-content {
+		margin-top: 0px;
+	}
+
+	.about-column1 li img {
+		width: 100%;
+	}
+	.about-column2 li img {
+		width: 100%;
+	}
+
+	.about-column3 li img {
+		width: 100%;
+	}
+
+	.about-column4 li img {
+		width: 100%;
+	}
+
+	.gettickets.btn:link {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.seeschedule.btn:visited {
+		display: block;
+	}
+
+	.team-member img {
+		width: 100%;
+	}
+
+	.sponsors {
+		margin-top: 0px;
+	}
+
+	.top-tier-list img {
+		width: 50%;
+	}
+
+	.what aside h3 {
+		font-size: 1.3em;
+	}
+
+	.what aside p {
+		font-size: 1.3em;
+	}
+
+	.sponsorship-aside {
+		text-align: center;
+	}
+
+	.sponsorship-aside h3 {
+		font-size: 1.3em;
+	}
+
+	.sponsorship-aside p {
+		font-size: 1.3em;
+	}
+
+	.submit-section1 {
+		margin-top: 0px;
+	}
+
+	.submit-aside h3 {
+		font-size: 1.3em;
+	}
+
+	.submit-aside p {
+		font-size: 1.3em;
+	}
+
+	.registration {
+		margin-top: 0px;
 	}
 }
