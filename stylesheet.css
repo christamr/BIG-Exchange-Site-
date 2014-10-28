@@ -792,6 +792,7 @@ footer p {
 	width: 45%;
 	display: inline-block;
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .footer-social .required.email {
@@ -838,8 +839,8 @@ footer p {
 	border-bottom: 1px solid #E1E1E1;
 	padding: 10px 0 10px 0;
 	width: 100%;
-	margin-top: 50px;
-}
+/*	margin-top: 50px;
+*/}
 
 .footer-gew p {
 	font-size: 1.2em;
@@ -861,7 +862,7 @@ footer p {
 }
 
 .footer-sponsors {
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 .footer-sponsors img {
@@ -895,8 +896,13 @@ footer nav {
 	font-size: .9em;
 }
 
+.footer-nav ul {
+	line-height: 40px;
+	padding-top: 10px;
+}
+
 .km-signoff {
-	font-size: .9em;
+	font-size: .8em;
 	color: #fafafa;
 }
 
