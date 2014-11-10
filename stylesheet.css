@@ -1179,6 +1179,86 @@ footer nav {
 	font-weight: bold;
 }
 
+/*SPEAKERS PAGE*/
+
+.speakers {
+	background-color: #fafafa;
+	border-top: 25px solid #7A49A7;
+	padding-top: 0px;
+	padding-bottom: 70px;
+	margin-top: 65px;
+}
+
+.speakers h1 {
+	color: #7A49A7;
+	font-size: 2.2em;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.speakers p {
+	line-height: 1.35em;
+	padding-bottom: 20px;
+}
+
+.speakers .serif {
+	color: #616161;
+	text-align: center;
+}
+
+.speakers a:link {
+	color: #616161;
+}
+
+.speakers a:visited {
+	color: #616161;
+}
+
+.speakers a:hover {
+	color: #7A49A7;
+}
+
+.individual-speakers {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.mentors {
+	background-color: #fafafa;
+	border-top: 25px solid #E49A00;
+	padding-top: 0px;
+	padding-bottom: 70px;
+}
+
+.mentors h1 {
+	color: #E49A00;
+	font-size: 2.2em;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.individual-mentor {
+	width: 45%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 40px;
+}
+
+.individual-mentor a:link {
+	color: #000;
+}
+
+.individual-mentor a:visited {
+	color: #000;
+}
+
+.individual-mentor a:hover {
+	color: #E49A00;
+}
+
 /*SCHEDULE PAGE*/
 
 .sched-embed {
@@ -1628,6 +1708,10 @@ footer nav {
 
 	.submit-section1 .width p {
 		text-align: center;
+	}
+
+	.individual-mentor {
+		width: 100%;
 	}
 }
 
