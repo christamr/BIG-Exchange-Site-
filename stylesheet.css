@@ -65,7 +65,7 @@ p {
 
 nav {
 	background-color: #0f4a6d;
-	position: fixed;
+/*	position: fixed;*/
 	width: 100%;
 	padding-bottom: 5px;
 	top: 0;
@@ -203,19 +203,19 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	padding-bottom: 100px;
+	padding-bottom: 120px;
 	text-align: center;
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 	background-position: center;
 }
 
 header .logo {
 	background-color: rgba(0, 149, 183, 0.5);
 	border-bottom: 1px solid #0f4a6d;
-	height: 190px;
+	/*height: 190px;*/ 
 	text-align: center;
 	padding-top: 15px;
-	height: 200px;
+	height: 220px;
 }
 
 header .logo img {
@@ -225,6 +225,7 @@ header .logo img {
 .gew {
     font-family: 'lato', sans-serif; 
     color: #fff;
+    padding-bottom: 20px;
 }
 
 .gew p {
@@ -920,7 +921,7 @@ footer nav {
 	border-top: 25px solid #A7C542;
 	padding-top: 0px;
 	padding-bottom: 70px;
-	margin-top: 65px;
+	/*margin-top: 65px;*/
 }
 
 .about-main-content h1 {
@@ -1186,7 +1187,7 @@ footer nav {
 	border-top: 25px solid #7A49A7;
 	padding-top: 0px;
 	padding-bottom: 70px;
-	margin-top: 65px;
+	/*margin-top: 65px;*/
 }
 
 .speakers h1 {
@@ -1283,7 +1284,7 @@ footer nav {
 	background-color: #fafafa;
 	border-top: 25px solid #0095B7;
 	padding-bottom: 30px;
-	margin-top: 65px;
+	/*margin-top: 65px;*/
 }
 
 .sponsors h1 {
@@ -1382,7 +1383,7 @@ footer nav {
 	border-top: 25px solid #A7C542;
 /*	padding-top: 100px;
 	padding-bottom: 70px;*/
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 }
 
 .registration h1 {
@@ -1404,7 +1405,7 @@ footer nav {
 	border-top: 25px solid #E49A00;
 /*	padding-top: 80px;*/
 	padding-bottom: 70px;
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 }
 
 .submit-opening {
